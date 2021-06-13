@@ -15,7 +15,7 @@ class App extends React.Component {
     render() {
         return (
             <div>
-                <Header title="Stack visualization" />
+                <Header title="Stack Visualization" />
                 <SearchBar onSubmit={this.onSearchSubmit} />
                 <Stack term={this.state.term} />
             </div>
